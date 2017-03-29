@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SystemMain.cpp" />
+    <ClCompile Include="Looper.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="Fps.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="EndScene.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="ErrorScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SystemMain.h" />
+    <ClInclude Include="Looper.h" />
+    <ClInclude Include="ISceneChangedListener.h" />
+    <ClInclude Include="eScene.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="ScenePrmBase.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="Fps.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="EndScene.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="ScorePrm.h" />
+    <ClInclude Include="ErrorScene.h" />
+    <ClInclude Include="IFpsGettable.h" />
+  </ItemGroup>
+</Project>
